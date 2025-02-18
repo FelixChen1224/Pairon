@@ -20,8 +20,8 @@ Pairon 是一套整合深度學習與多重特徵提取的人物辨識及全身�
 ### 遮擋情境追蹤
 - 系統成功應對九種不同類型的遮擋情境（例如動態人群遮擋、機車交會等），在追蹤穩定性上顯著超越傳統方法（如 ByteTrack 與 BoT-SORT）。
 
-## 環境需求
-### 模型檔
+### 環境需求
+
 本系統需要以下模型檔案才能正常運行：
 - GFPGAN 模型檔：用於人臉修復與增強
   - 下載位置：[GFPGAN Model](https://drive.google.com/drive/folders/1AspP1c836z_abNLn1REQNvXQvnQ43zBR?usp=sharing)
