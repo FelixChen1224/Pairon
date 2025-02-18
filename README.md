@@ -3,6 +3,7 @@
 
 ## 專案概述
 Pairon 是一套整合深度學習與多重特徵提取的人物辨識及全身追蹤系統。 本系統突破傳統人臉辨識的限制，能夠對有遮擋或不完整的人臉擷取特徵，並透過零樣本學習實現各種情況下的人臉特徵辨識，進而將辨識到的人物進行持續追蹤。
+
 ## 專案流程
 ```mermaid
 sequenceDiagram
@@ -44,6 +45,10 @@ sequenceDiagram
         FeatureProc-->>SysAdmin: 9. 確認處理完成
     end
 ```
+
+### 範例影片
+
+[![系統展示影片](https://img.youtube.com/vi/gJidwmYNd6A/0.jpg)](https://www.youtube.com/watch?v=gJidwmYNd6A)
 ## 辨識效能
 
 ### 資料集
