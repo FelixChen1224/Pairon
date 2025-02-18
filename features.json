@@ -1,0 +1,311 @@
+{
+    "Hat": {
+        "types": [
+            "baseball_cap",
+            "beanie",
+            "fedora",
+            "sun_hat",
+            "bucket_hat",
+            "beret",
+            "visor",
+            "cowboy_hat"
+        ],
+        "colors": [
+            "red",
+            "blue",
+            "black",
+            "white",
+            "gray",
+            "brown",
+            "beige",
+            "navy"
+        ],
+        "patterns": [
+            "solid",
+            "striped",
+            "plaid",
+            "checkered",
+            "floral",
+            "logo"
+        ]
+    },
+    "Hair": {
+        "colors": [
+            "black",
+            "dark_brown",
+            "light_brown",
+            "blonde",
+            "red",
+            "gray",
+            "white",
+            "colored"
+        ],
+        "styles": [
+            "straight",
+            "wavy",
+            "curly",
+            "short",
+            "medium",
+            "long",
+            "bun",
+            "braided",
+            "bald",
+            "partially_bald",
+            "shaved"
+        ]
+    },
+    "Sunglasses": {
+        "types": [
+            "aviator",
+            "wayfarer",
+            "round",
+            "square",
+            "sport",
+            "oversized"
+        ],
+        "colors": [
+            "black",
+            "brown",
+            "silver",
+            "gold",
+            "colored"
+        ]
+    },
+    "Upper-clothes": {
+        "types": [
+            "t_shirt",
+            "shirt",
+            "blouse",
+            "sweater",
+            "jacket",
+            "hoodie",
+            "tank_top",
+            "polo"
+        ],
+        "colors": [
+            "red",
+            "blue",
+            "green",
+            "yellow",
+            "black",
+            "white",
+            "gray",
+            "pink",
+            "purple",
+            "brown"
+        ],
+        "patterns": [
+            "solid",
+            "striped",
+            "plaid",
+            "checkered",
+            "floral",
+            "graphic",
+            "text"
+        ]
+    },
+    "Skirt": {
+        "types": [
+            "mini",
+            "midi",
+            "maxi",
+            "pleated",
+            "a_line",
+            "pencil"
+        ],
+        "colors": [
+            "red",
+            "blue",
+            "black",
+            "white",
+            "gray",
+            "navy",
+            "brown",
+            "patterned"
+        ],
+        "patterns": [
+            "solid",
+            "plaid",
+            "floral",
+            "striped",
+            "checkered"
+        ]
+    },
+    "Pants": {
+        "types": [
+            "jeans",
+            "slacks",
+            "khakis",
+            "shorts",
+            "leggings",
+            "joggers",
+            "cargo"
+        ],
+        "colors": [
+            "blue",
+            "black",
+            "gray",
+            "brown",
+            "khaki",
+            "navy",
+            "white"
+        ],
+        "patterns": [
+            "solid",
+            "striped",
+            "checkered",
+            "camouflage"
+        ]
+    },
+    "Dress": {
+        "types": [
+            "casual",
+            "formal",
+            "sundress",
+            "maxi",
+            "mini",
+            "wrap",
+            "shirt_dress"
+        ],
+        "colors": [
+            "red",
+            "blue",
+            "black",
+            "white",
+            "pink",
+            "purple",
+            "floral",
+            "patterned"
+        ],
+        "patterns": [
+            "solid",
+            "floral",
+            "polka_dot",
+            "striped",
+            "geometric"
+        ]
+    },
+    "Belt": {
+        "types": [
+            "leather",
+            "fabric",
+            "chain",
+            "elastic"
+        ],
+        "colors": [
+            "black",
+            "brown",
+            "tan",
+            "white",
+            "metallic"
+        ]
+    },
+    "Left-shoe": {
+        "types": [
+            "sneaker",
+            "dress_shoe",
+            "boot",
+            "sandal",
+            "heel",
+            "flat"
+        ],
+        "colors": [
+            "black",
+            "white",
+            "brown",
+            "gray",
+            "multicolor"
+        ]
+    },
+    "Right-shoe": {
+        "types": [
+            "sneaker",
+            "dress_shoe",
+            "boot",
+            "sandal",
+            "heel",
+            "flat"
+        ],
+        "colors": [
+            "black",
+            "white",
+            "brown",
+            "gray",
+            "multicolor"
+        ]
+    },
+    "Face": {
+        "attributes": {
+            "gender": [
+                "male",
+                "female"
+            ],
+            "age_group": [
+                "child",
+                "young",
+                "adult",
+                "elderly"
+            ],
+            "ethnicity": [
+                "asian",
+                "caucasian",
+                "african",
+                "hispanic",
+                "middle_eastern"
+            ],
+            "expression": [
+                "neutral",
+                "happy",
+                "serious"
+            ]
+        }
+    },
+    "Bag": {
+        "types": [
+            "handbag",
+            "backpack",
+            "shoulder_bag",
+            "tote",
+            "clutch",
+            "messenger"
+        ],
+        "colors": [
+            "black",
+            "brown",
+            "tan",
+            "white",
+            "red",
+            "blue"
+        ],
+        "patterns": [
+            "solid",
+            "patterned",
+            "textured",
+            "logo"
+        ]
+    },
+    "Scarf": {
+        "types": [
+            "winter",
+            "fashion",
+            "silk",
+            "wool",
+            "cotton"
+        ],
+        "colors": [
+            "red",
+            "blue",
+            "black",
+            "white",
+            "patterned",
+            "multicolor"
+        ],
+        "patterns": [
+            "solid",
+            "plaid",
+            "floral",
+            "geometric",
+            "striped"
+        ]
+    }
+}
