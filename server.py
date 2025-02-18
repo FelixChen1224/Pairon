@@ -50,19 +50,36 @@ def image_source(filename):
 def serve_image(filename):
     return send_from_directory('static/images', filename)
 
+@app.route('/upload/video', methods=['POST'])
+def upload_video():
+    video = request.files['video']
+    
+    filename = video.filename
+ 
+    save_path = os.path.join('pic/input_video_path', filename)
+
+    global INPUT_VIDEO_PATH
+    INPUT_VIDEO_PATH = save_path
+    return jsonify({
+        "message": "Video uploaded",
+        "filename": filename
+    }), 200
 
 
-
+INPUT_VIDEO_PATH = 'pic/cover/V8.mp4'
+OUTPUT_VIDEO_PATH = 'pic/output/output_tree.mp4'
+FEATURES_JSON_PATH = 'features.json'
      
 
 @app.route('/example', methods=['POST'])
 def example():
     # input_video_path = 'pic/turn3.mp4'
-    input_video_path = 'pic/cover/V8.mp4'
+    input_video_path = INPUT_VIDEO_PATH
     # input_video_path = 'b2.mp4'
-    output_video_path = 'pic/output/output_tree.mp4'
+    output_video_path = OUTPUT_VIDEO_PATH
     # features_json_path = 'features.json'
-    features_json_path = 'features.json'
+    features_json_path = FEATURES_JSON_PATH
+    
     
     # 初始化 Face Processor
     # face_processor = RADIOFeatureProcessor(features_json_path)
@@ -75,6 +92,7 @@ def example():
              
                 "Person_A": ["pic/people/Hwang2.jpg"],
                 "an": ["pic/people/an4.jpg"]
+                
          
         }
     }      
